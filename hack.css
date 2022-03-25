@@ -1,0 +1,177 @@
+h1
+{
+    display: flex;
+    color: blue;
+    justify-content:center;
+    align-items: center;
+}
+
+*{
+    margin: 1rem ;
+    padding: 2rem ;
+}
+
+html{ 
+ /* 10px */
+font-size: 60%;
+box-sizing: border-box;
+}
+
+body
+{
+ font-size: 1.6rem;
+ font-family: "poppins",sans-serif;
+ color: #333;
+ font-weight:400;
+ line-height: 1.6;
+}
+
+.lander-page
+{
+    border: 5px solid #0d2525b9;
+    height: 400px;
+    width: 400px;
+    margin-right: 5rem;
+    border-radius: 50%;
+}
+
+.section-intro
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4c924;
+    background-image: linear-gradient(140deg,#eeea12 0%,#e23c0a 100%);
+}
+
+.heading-primary
+ {
+    font-size: 6rem;
+    color:rgb(17, 1, 1);
+ }
+
+ .heading-primary-blue
+ {
+     color:rgb(60, 34, 144);
+     display: flex;
+ }
+
+.heading-secandary
+ {
+    font-size: 4rem;
+    color: rgb(3, 54, 11);
+ }
+
+.section
+ {
+     height: 110vh;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+ }
+
+.illustration
+ {
+    height: 50%;
+    border-radius: 10%;
+ }
+
+ .section-blog
+ {
+    display: flex;
+    align-items: center;height: 100vh;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #d4c924;
+ }
+ 
+ .section-1
+ {
+    align-items: center;height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #d4c924;
+ }
+
+ .list
+ {
+     list-style-type: none;
+     display: flex;
+ }
+ .list li
+ {
+     font-size: 2rem;
+     margin-right: 1rem;
+     background-color: #16a085;
+     color: #fff;
+     padding: 1rem;
+     border-radius: 0.5rem;
+ }
+
+ .curve
+ {
+     height: 40rem;
+     width: 60rem;
+     border-radius: 5%;
+ }
+
+ .section-3
+ {
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    background-color: #d4c924;
+ }
+  
+
+ form
+ {
+     background-color: #11af87;
+     color: #fff;
+     border-radius: 0.5rem;
+     padding: 2rem;
+     display: flex;
+     flex-direction: column;
+ }
+ label
+ {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+ input,textarea
+ {
+     font-family: inherit;
+     padding: 0.5rem 1rem ;
+ }
+
+ .button
+ {
+     font-family: inherit;
+     font-size: 2rem;
+     background-color: #ca1616;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     color: white;
+     border: 2px solid #fff;
+     cursor: pointer;
+     align-items: center;
+ }
+ .button:hover
+ {
+     background-color: #fff;
+     color: #ca1616;
+ }
+ .button2
+ {
+     font-family: inherit;
+     font-size: 3rem;
+     background-color: #2841b3;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     color: white;
+     border: 2px solid rgb(27, 18, 18);
+     cursor: pointer;
+     align-items: center;
+
+ }
